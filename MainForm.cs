@@ -17,6 +17,7 @@ using Bea.Tuxedo.ATMI;
 using System.IO;
 using System.Diagnostics;
 
+
 namespace UCSAPI_SiwonSRI
 {
 
@@ -186,6 +187,7 @@ namespace UCSAPI_SiwonSRI
                 Application.ThreadException += new System.Threading.ThreadExceptionEventHandler(Application_ThreadException);
 
                 GetConfig();
+
             }
             catch (System.Exception ex)
             {
